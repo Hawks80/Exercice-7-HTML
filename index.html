@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Le formulaire</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form>
+		<fieldset class="fieldset">
+			<legend class="fieldset">Votre identité</legend>
+			<ol>
+				<li><label for="Nom">Nom</label> : <input type="text" name="Nom" id="Nom"/></li>
+				<li><label for="Prénom">Prénom</label> : <input type="text" name="Prénom" id="Prénom"/></li>
+				<li><label for="Adresse mail">Adresse mail</label> : <input type="text" name="Adresse mail" id="Adresse mail"/></li>
+			</ol>
+		</fieldset>
+		<fieldset class=fieldset1>
+			<legend class="fieldset1">Adresse de livraison</legend>
+			<ol>
+				<li><label for="Adresse">Adresse</label> : <textarea name="Adresse" cols="15" rows="2" id="Adresse"></textarea></li>
+				<li><label for="Code postal>Code postal"</label> : <input type="text" name="Code postal" id="Code postal"/></li>
+				<li><label for="Ville">Ville</label> : <input type="text" name="Ville" id="Ville"/></li>
+			</ol>
+		</fieldset>
+		<fieldset class=fieldset2>
+			<legend class="fieldset2">Informations de règlement</legend>
+			<ol>
+				<li><label for="Carte bancaire">Type de carte bancaire :</label></li>
+				<div><input type="radio" class=marge1 name="VISA" value="VISA" id="VISA"> VISA</div>
+				<input type="radio" class=marge1 name="Mastercard" value="Mastercard" id="Mastercard"> Mastercard
+				<li><label for="Nom">Numéro de carte</label> : <input type="text" name="NuméroCB" id="NuméroCB"/></li>
+				<li><label for="Nom">Code de sécurité</label> : <input type="text" name="Codesécu" id="Codesécu"/></li>
+				<li><label for="Nom">Nom du titulaire</label> : <input type="text" name="Nomtitu" id="Nomtitu"/></li>
+			</ol>
+		</fieldset>
+		<input type="submit" value="J'achète !" />
+	</form>
+	</html>
